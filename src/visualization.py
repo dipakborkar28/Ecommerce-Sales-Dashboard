@@ -114,6 +114,6 @@ def create_dashboard(
     axes[2,1].set_title("Price Distribution")
     axes[2,1].set_xlabel("Price (₹)")
     axes[2,1].set_ylabel("Number of Products")
-    plt.savefig("images/dashboard.png", dpi=300, bbox_inches="tight")
+    # plt.savefig("images/dashboard.png", dpi=300, bbox_inches="tight")
 
     plt.show()
